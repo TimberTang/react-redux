@@ -14,3 +14,9 @@ Redux demo
 
 
 ## axios
+ 
+## reduux-thunk中间件的安装和配置
+
+## Redux-thunk的使用方法
+
+## Redux-saga的安装和配置
