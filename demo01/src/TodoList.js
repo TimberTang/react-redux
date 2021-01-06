@@ -5,7 +5,8 @@ import {
     deleteItemAction,
     addItemAction,
     // getTodoListActon
-    getTodoList
+    // getTodoList,
+    getMyTodoListAction
 } from "./store/actionCreaters.js";
 import TodoListUI from "./TodoListUI";
 // import axios from 'axios'
@@ -36,8 +37,9 @@ class TodoList extends Component {
         //     const action = getTodoListActon(data)
         //     store.dispatch(action)
         // })
-        const action = getTodoList()
+        const action = getMyTodoListAction()
         store.dispatch(action)
+        // console.log(action);
     }
 
     render() {
